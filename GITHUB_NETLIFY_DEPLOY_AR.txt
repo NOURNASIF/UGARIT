@@ -1,15 +1,10 @@
-تعليمات استبدال ملفات المستودع — أوغاريت v0.1.11
+تعليمات تحديث مستودع أوغاريت — v0.1.12
 
-1) افتح مستودع GitHub نفسه.
-2) استبدل الملفات الموجودة في جذر المستودع بهذه الملفات من الحزمة:
-   - netlify.toml
-   - package.json
-   - UGARIT_v0.1_ROOT_FIX_ADMIN_LOGIN.zip
-   - README_AR.txt
-   - GITHUB_NETLIFY_DEPLOY_AR.txt
+1) افتح مستودع GitHub نفسه: https://github.com/NOURNASIF/UGARIT/upload/main
+2) استبدل الملفات الموجودة في جذر المستودع بهذه الملفات الخمسة من الحزمة: netlify.toml وpackage.json وUGARIT_v0.1_ROOT_FIX_ADMIN_LOGIN.zip وREADME_AR.txt وGITHUB_NETLIFY_DEPLOY_AR.txt.
 3) لا ترفع محتويات الأرشيف الداخلي منفصلة.
 4) لا تغيّر أي متغيرات بيئة في Netlify أو إعدادات Appwrite.
-5) بعد Commit changes انتظر نشر Netlify حتى تصبح الحالة Published.
-6) افتح الموقع في نافذة خاصة أو امسح بيانات الموقع المؤقتة ثم اختبر التنقل.
+5) نفّذ Commit changes وانتظر أن تصبح حالة النشر Published.
+6) اختبر الموقع في نافذة خاصة: يجب ألا يدخل المدير تلقائياً؛ استخدم «دخول Admin» وأدخل بيانات المدير. بعد نجاح الدخول تظهر لوحة صاحب المنصة وخروج المدير أسفل القائمة الجانبية.
 
-إذا لم تنجح عملية النشر، لا تكرر الرفع؛ أرسل نص خطأ Deploy log.
+إذا فشل النشر، لا تكرر الرفع؛ انسخ نص Deploy log فقط.
