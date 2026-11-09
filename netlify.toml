@@ -1,0 +1,7 @@
+[build]
+  command = "mkdir -p .netlify-build && unzip -oq UGARIT_v0.1_ROOT_FIX_ADMIN_LOGIN.zip -d .netlify-build"
+  publish = ".netlify-build/UGARIT_v0.1"
+  functions = ".netlify-build/UGARIT_v0.1/netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
