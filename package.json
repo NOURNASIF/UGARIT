@@ -1,8 +1,7 @@
 {
-  "name": "ugarit-github-netlify-deploy-v017",
+  "name": "ugarit-github-netlify-recovery",
   "private": true,
   "type": "module",
-  "engines": {
-    "node": ">=20"
-  }
+  "engines": { "node": ">=20" },
+  "version": "0.1.11"
 }
