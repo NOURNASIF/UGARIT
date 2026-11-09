@@ -1,11 +1,8 @@
 {
-  "name": "ugarit-github-netlify-deploy-v016",
+  "name": "ugarit-github-netlify-deploy-v017",
   "private": true,
   "type": "module",
   "engines": {
     "node": ">=20"
-  },
-  "dependencies": {
-    "node-appwrite": "^17.0.0"
   }
 }
