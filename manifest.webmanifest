@@ -1,0 +1,54 @@
+{
+  "id": "./",
+  "name": "GeoVerse | جيو فيرس — منصة الجغرافيا التعليمية",
+  "short_name": "جيو فيرس",
+  "version": "0.1.37",
+  "description": "منصة جغرافية تعليمية للطلاب والمعلمين، تجمع المعرفة والخرائط والتعلم التطبيقي.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F8F6F1",
+  "theme_color": "#0F4C5C",
+  "icons": [
+    {
+      "src": "./geoverse-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./geoverse-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "any",
+  "categories": [
+    "education"
+  ],
+  "shortcuts": [
+    {
+      "name": "مكتبة الدروس",
+      "short_name": "مكتبة الدروس",
+      "url": "./#lessons"
+    },
+    {
+      "name": "الخريطة التفاعلية",
+      "short_name": "الخريطة التفاعلية",
+      "url": "./#map"
+    },
+    {
+      "name": "الاختبارات",
+      "short_name": "الاختبارات",
+      "url": "./#quiz"
+    },
+    {
+      "name": "المعلم الذكي",
+      "short_name": "المعلم الذكي",
+      "url": "./#tutor"
+    }
+  ]
+}

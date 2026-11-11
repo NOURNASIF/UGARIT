@@ -1,7 +1,13 @@
 {
-  "name": "ugarit-github-netlify-recovery",
+  "name": "geoverse-platform-functions",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=20" },
-  "version": "0.1.12"
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "predeploy-check": "node scripts/predeploy-check.mjs"
+  },
+  "version": "0.1.37"
 }
