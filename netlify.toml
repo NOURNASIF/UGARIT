@@ -1,4 +1,3 @@
-
 [build]
   command = "unzip -o GEOVERSE_M36_FULL_RESTORATION.zip -d ."
   publish = "."
